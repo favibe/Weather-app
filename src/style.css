@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #83c7ff, #005bea);
+  margin: 0;
+  color: white;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#temp-toggle {
+  margin-top: 20px;
+}
+
+#temp-toggle button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  background: white;
+  border: none;
+  color: #005bea;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#temp-toggle .active {
+  background: #ffdd57;
+  color: black;
+}
+
+#weather-display img {
+  width: 100px;
+  margin: 10px 0;
+}
+#weather-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+#location-input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  width: 60%;
+}
+
+#weather-form button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ffdd57;
+  color: black;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#weather-form button:hover {
+  background-color: #f1c40f;
+}
+/* 
+#temp-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+#temp-toggle button {
+  padding: 6px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: white;
+  color: #005bea;
+  transition: 0.2s;
+}
+
+#temp-toggle button.active {
+  background-color: #ffdd57;
+  color: black;
+}
+
+#temp-toggle button:hover {
+  background-color: #f1c40f;
+  color: black;
+} */
